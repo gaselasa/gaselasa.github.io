@@ -1,0 +1,320 @@
+<html>
+
+
+<head>
+
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 250px 500px;
+      grid-template-rows: 200px 3fr 4fr 1.7fr 3fr;
+      height: 100%;
+      margin-left: 20em;
+
+
+
+      grid-template-areas:
+        "name summary"
+        "image skill"
+        "contact exp"
+        "language education "
+        "hobbies certi";
+
+
+
+
+    }
+
+    header.name {
+      padding-top: 6em;
+      text-align: center;
+      font-weight: bolder;
+      letter-spacing: -1px;
+      font-size: 20px;
+      background-color: rgb(149, 152, 155);
+      grid-area: name;
+
+    }
+
+    .image {
+      background-size: cover;
+      align-items: center;
+      height: 350px;
+
+
+
+      background: url('4.jpg') no-repeat;
+
+      grid-area: image;
+      background-color: rgb(149, 152, 155);
+    }
+
+    main.contact {
+      text-align: left;
+      padding: 2em;
+
+
+      grid-area: contact;
+
+      background-color: rgb(149, 152, 155);
+
+    }
+
+    main.language {
+      grid-area: language;
+
+      background-color: rgb(149, 152, 155);
+      text-align: left;
+      padding: 2em;
+      padding-top: 8px;
+      ;
+
+
+
+    }
+
+    main.hobbies {
+
+      grid-area: hobbies;
+      text-align: left;
+      padding: 2em;
+
+      background-color: rgb(149, 152, 155);
+
+
+    }
+
+
+
+    section.summary {
+      grid-area: summary;
+      background-color: white;
+      padding-top: 3em;
+      padding-left: 1em;
+      padding-right: 2em;
+
+
+
+
+
+
+    }
+
+    section.skill {
+      padding-top: 1em;
+      padding-left: 1em;
+      padding-right: 2em;
+
+      grid-area: skill;
+      background-color: white;
+    }
+
+    section.exp {
+      padding-top: 1em;
+      padding-left: 1em;
+      padding-right: 2em;
+      grid-area: exp;
+      background-color: white;
+    }
+
+    section.certi {
+      grid-area: certi;
+      background-color: white;
+      padding-top: 1em;
+      padding-left: 1em;
+      padding-right: 2em;
+    }
+
+    section.education {
+      grid-area: education;
+      background-color: white;
+      padding-top: 1em;
+      padding-left: 1em;
+      padding-right: 2em;
+
+    }
+
+
+    #myid {
+
+      font-weight: 600;
+    }
+
+    body {
+
+      background-color: rgb(129, 128, 127);
+    }
+
+    hr {
+      margin: 0px;
+      color: rgb(173, 179, 187);
+
+    }
+
+    #color {
+      color: rgb(219, 156, 19);
+    }
+
+
+    #highlight {
+      list-style-type: disc;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+      columns: 2;
+      list-style-position: inside;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+
+
+
+  <div class="grid-container">
+
+    <header class="name">
+      Sanele Gabriel<br>
+      <p id="color">Gasela </p>
+
+    </header>
+
+    <div class="image">
+
+
+    </div>
+
+    <section class="summary">
+      <h3>Summary</h3>
+      <hr>
+      <p> A professional software developer with a commitment to and experience of developing innovative and creative
+        software solution, have gain commercial experience developing live system for clients.
+        Actively looking for software engineering position with fast paced and ambitious company that can offer
+        development training, project based learning.
+      </p>
+
+
+    </section>
+    <section class="exp">
+
+      <h3>Experience </h3>
+      <hr>
+      <b>Web Developer. </b> 2012-2015 <br>
+      <b>2Cana solution</b>,Durban
+      <ul>
+        <li>Cooperate with designer to create clean interface and
+          simple user intuitive and experiment
+        </li>
+        <li>Develop project concept and maintain
+          optimal workflow
+        </li>
+        <li>
+          Work with senior developer to manage large,complex
+          project for corporate clients
+
+        </li>
+        <li>
+
+          complete detail programming and develop task
+          for frond end public and internal websites as well
+          challenging backend server code
+        </li>
+        <li>
+          Carry out quality assuarance test to discover errors
+          and optimize usability
+        </li>
+
+
+
+      </ul>
+
+
+    </section>
+    <section class="skill">
+      <h3>Skill Highlights</h3>
+      <hr>
+
+      <ul id="highlight">
+        <li> Problem solver</li>
+        <li> Database Design and implementation</li>
+        <li> System Analysis, design, implementation</li>
+        <li> Web Stack (Htm, css, JavaScript)</li>
+        <li>Spring framework,ORM</li>
+        <li>Java, C++ , C#, ASP.NET </li>
+      </ul>
+
+
+    </section>
+    <section class="certi">
+
+
+      <h3> Certifications</h3>
+      <hr>
+      Azure <b>Data scientist associate</b> <br>
+      Azure <b>Fundamentals</b>
+
+
+    </section>
+    <section class="education">
+
+      <h3>Education</h3>
+      <hr>
+      <P>Bachelor of science. <b> Computer Science and
+          Information Technology </b> :2012 <br>
+        <b> UKZN, Pietermaritzburg</b>
+
+
+
+
+    </section>
+
+
+    <main class="contact">
+      <h3>Contact</h3>
+      <hr>
+      <strong>Address</strong>: <br>
+      Arch street, Freedom park
+      soweto,JHB <br><br>
+
+      <b>Phone</b> : <br>
+      0634913608 <br><br>
+
+      <b>Email</b> : <br>
+      gaselasa@gmail.com <br><br>
+
+      <b>Linkendin</b>: <br>
+      <u>linkedin.com/in/sanele-gasela-8a887a2b/</u>
+
+    </main>
+    <main class="language">
+      <h3>Languages </h3>
+      <hr>
+      IsiZulu <br>
+      English <br>
+      isiXhosa
+
+
+
+    </main>
+    <main class="hobbies">
+      <h3>Hobbies </h3>
+      <hr>
+
+      <ul id="hob">
+        <li> Reading</li>
+        <li> Pooltable</li>
+        <li>Design</li>
+
+      </ul>
+
+
+    </main>
+  </div>
+
+</body>
+
+
+
+</html>
